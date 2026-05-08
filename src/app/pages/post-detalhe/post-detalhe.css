@@ -1,0 +1,52 @@
+.text-petro {
+    color: #004d40;
+}
+
+.espacador-navbar {
+    height: 100px;
+}
+
+.noticia-texto p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.paragrafo-destaque {
+    font-weight: 500;
+    color: #222 !important;
+}
+
+.card-impacto {
+    background: linear-gradient(135deg, #004d40 0%, #002d26 100%);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 77, 64, 0.2);
+}
+
+.btn-petro {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-petro:hover {
+    background-color: #006d5b;
+    color: white;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    .noticia-texto p {
+        font-size: 1.1rem;
+    }
+    .espacador-navbar {
+        height: 80px;
+    }
+}

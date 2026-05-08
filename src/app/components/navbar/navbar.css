@@ -1,0 +1,12 @@
+.navbar-petro {
+    background-color: #004d40 !important;
+}
+
+.logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.nav-link:hover {
+    color: #ffca28 !important;
+}

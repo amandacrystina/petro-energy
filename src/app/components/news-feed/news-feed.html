@@ -1,0 +1,22 @@
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold text-dark-green">Últimos Projetos de Exploração</h2>
+    
+    <div class="row g-4">
+      <div class="col-md-4" *ngFor="let noticia of noticias">
+        <div class="card h-100 shadow-sm border-0">
+          <img [src]="noticia.imagem" class="card-img-top" alt="Imagem do projeto">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">{{ noticia.titulo }}</h5>
+            <p class="card-text text-muted">{{ noticia.resumo }}</p>
+          </div>
+          <div class="card-footer bg-transparent border-0 pb-4">
+            <a [routerLink]="['/noticia', noticia.id]" class="btn btn-outline-success">
+                Ler post completo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+.text-dark-green {
+    color: #004d40;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.btn-outline-success {
+    color: #00796b;
+    border-color: #00796b;
+}
+
+.btn-outline-success:hover {
+    background-color: #00796b;
+    color: white;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
